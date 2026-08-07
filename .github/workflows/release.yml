@@ -385,3 +385,5 @@ jobs:
           generate_release_notes: true
           fail_on_unmatched_files: true
           target_commitish: ${{ github.sha }}
+
+# Actions registration nudge (2026-08-07T19:28Z UTC)
