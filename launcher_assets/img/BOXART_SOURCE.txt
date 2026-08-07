@@ -1,0 +1,5 @@
+Box art sourced from libretro-thumbnails (Named_Boxarts).
+Matched name: Bomberman Fantasy Race (USA)
+URL: https://thumbnails.libretro.com/Sony%20-%20PlayStation/Named_Boxarts/Bomberman%20Fantasy%20Race%20(USA).png
+https://github.com/libretro-thumbnails/libretro-thumbnails
+Convert: PNG → 32-bit TGA for recomp-ui LAUNCHER_BOXART.

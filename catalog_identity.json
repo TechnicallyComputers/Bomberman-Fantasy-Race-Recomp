@@ -1,0 +1,47 @@
+{
+  "format_version": 1,
+  "game": {
+    "name": "Bomberman Fantasy Race",
+    "id": "SLUS-00823",
+    "boot_exe": "SLUS_008.23"
+  },
+  "marketing": {
+    "description": "If you're looking for fun racing action, look no further than Bomberman Fantasy Race! Lightning fast competition, zany obstacle infested tracks and of course bombs! It's a battle-racing game like you've seen. Features: * Wacky animal racing! Race atop 10 different animals through 7 unique fantasy courses. Use special techniques , such as the triangle jump, bomb dash and catapult to get ahead of the competition! * Intense 2 player action! Compete against your friends in the split screen mode to prove who's #1! Best of all, clean out their piggy bank with the unique wagering system! * Over 15 crazy power-ups! Wield over 15 wacky weapons, including rocket bombs, power bombs, shields and power suits. Unleash long range attacks utilizing the unique throw meter!",
+    "publisher": "Atlus USA",
+    "year": "1998",
+    "region": "USA",
+    "players": 2
+  },
+  "rom_identity": {
+    "cue_name": "Bomberman Fantasy Race (USA).cue",
+    "bin_name": "Bomberman Fantasy Race (USA).bin",
+    "track_counts": [
+      1
+    ],
+    "require_cue": true,
+    "data_track": {
+      "size": 260768592,
+      "md5": "6c39e1333f90405b8b3bab30cfa53aa3",
+      "sha1": "7ce0a61c9617118976e4b47090790b342cd38045"
+    },
+    "disc_fp": "541f4b499cc6280a4b19874d9707f75560f0316e2f97093587b7fdb5bbdb4395"
+  },
+  "exe": {
+    "load_address": "0x8003004C",
+    "entry_pc": "0x800C0AE4",
+    "text_size": "0x000D6800",
+    "stack_base": "0x801FFFF0"
+  },
+  "seeds": {
+    "count": 1229,
+    "source": "boot_exe_jal"
+  },
+  "warnings": [
+    "cue has only 1 TRACK \u2014 Track-01-only dumps fail multi-track netplay/catalog gates; prefer a full Redump cue."
+  ],
+  "notes": [
+    "entry_pc/load_address/text_size/stack_base taken from PS-X EXE header.",
+    "seeds are first-pass boot-EXE JAL targets (+ entry); expect to grow as overlays / runtime paths are discovered.",
+    "required_disc_fp is psxrecomp-toc-v1 (matches runtime DiscIdentity)."
+  ]
+}
