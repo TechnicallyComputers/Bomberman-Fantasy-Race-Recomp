@@ -8,6 +8,7 @@
 
 [widescreen.cull]
 auto_screen_x = true   # 3 function(s) carry the screen-extent signature
+# WARNING: these do not match a console display mode — treat as a guess.
 # Discovered from the image: width/height compare immediates scored by
 # CO-OCCURRENCE in the same function (the screen-extent signature),
 # weighted toward GTE code and the console's real display modes.
