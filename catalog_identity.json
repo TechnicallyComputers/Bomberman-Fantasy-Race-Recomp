@@ -1,15 +1,15 @@
 {
   "format_version": 1,
   "game": {
-    "name": "Bomberman Fantasy Race",
+    "name": "Bomberman Fantasy Race Recomp",
     "id": "SLUS-00823",
     "boot_exe": "SLUS_008.23"
   },
   "marketing": {
-    "description": "If you're looking for fun racing action, look no further than Bomberman Fantasy Race! Lightning fast competition, zany obstacle infested tracks and of course bombs! It's a battle-racing game like you've seen. Features: * Wacky animal racing! Race atop 10 different animals through 7 unique fantasy courses. Use special techniques , such as the triangle jump, bomb dash and catapult to get ahead of the competition! * Intense 2 player action! Compete against your friends in the split screen mode to prove who's #1! Best of all, clean out their piggy bank with the unique wagering system! * Over 15 crazy power-ups! Wield over 15 wacky weapons, including rocket bombs, power bombs, shields and power suits. Unleash long range attacks utilizing the unique throw meter!",
-    "publisher": "Atlus USA",
-    "year": "1998",
-    "region": "USA",
+    "description": "",
+    "publisher": "",
+    "year": "",
+    "region": "",
     "players": 2
   },
   "rom_identity": {
@@ -22,7 +22,8 @@
     "data_track": {
       "size": 260768592,
       "md5": "6c39e1333f90405b8b3bab30cfa53aa3",
-      "sha1": "7ce0a61c9617118976e4b47090790b342cd38045"
+      "sha1": "7ce0a61c9617118976e4b47090790b342cd38045",
+      "crc32": "09f56d01"
     },
     "disc_fp": "541f4b499cc6280a4b19874d9707f75560f0316e2f97093587b7fdb5bbdb4395"
   },
