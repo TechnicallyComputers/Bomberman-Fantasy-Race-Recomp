@@ -479,7 +479,7 @@ jobs:
             export BPE_RUNTIME_BIN_DIR=/mingw64/bin
           fi
           export RELEASE_VERSION
-          # Lean zip (no embedded toolchain/). RetComM / wizard download
+          # Lean zip (no embedded toolchain/). Retro / wizard download
           # cmake-clang-v1; pass --embed-toolchain only for offline-first packs.
           scripts/package_setup_release.sh build-ci "${{ matrix.artifact }}" build-recompiler
           ls -la dist/
